@@ -46,7 +46,7 @@ before_install: skip
 
 install:
   # Set default version of Python to 3: This must occur before "before_script"
-  - pip3 install virtualenv
+  - pip install virtualenv
   - virtualenv -p python3 ~/venv
   - source ~/venv/bin/activate
 
